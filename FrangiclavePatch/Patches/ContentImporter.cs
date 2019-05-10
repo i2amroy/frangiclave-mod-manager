@@ -152,7 +152,7 @@ namespace Frangiclave.Patches
                         items.RemoveAt(foundIndex);
                     }
 
-                    break;
+                    continue;
                 }
 
                 Hashtable originalItem = null;
